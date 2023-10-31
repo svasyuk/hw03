@@ -1,0 +1,88 @@
+.contact {
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__list {
+        display: flex;
+        padding: 40px 20px;
+        flex-direction: row;
+        justify-content: center;
+        gap: 360px;
+
+        @include xl-max {
+            gap: 180px;
+        }
+
+        @include lg-max {
+            gap: 30px;
+        }
+
+        @include md-max {
+            padding: 40px 5px;
+            gap: 30px;
+        }
+
+        @include sm-max {
+            padding: 30px 120px;
+            flex-direction: column;
+            gap: 50px;
+        }
+    }
+
+    &__item {
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    &__title {
+        text-align: left;
+        color: var(--text-color, #252B42);
+        font-size: var(--font-size-h3, 24px);
+        font-weight: var(--font-weight-h3, 700);
+        line-height: var(--line-height-h3, 32px);
+        br {
+            display: none;
+          }
+
+          @include md-max {
+            br {
+                display: block;
+              }
+            }
+    }
+
+    &__text {
+        padding-top: 10px;
+        text-align: left;
+        color: var(--gray-text-color, #737373);
+        font-size: var(--font-size-paragraph, 14px);
+        font-weight: var(--font-weigh-paragraph, 500);
+        line-height: var(--line-heigh-paragraph, 20px);
+
+    }
+
+    &__button {
+        padding: 15px 40px;
+        max-height: 72px;
+      
+        font-size: var(--font-size-btn, 14px);
+        font-weight: var(--font-weight-btn, 700);
+        line-height: var(--line-height-btn, 28px);
+      
+        background-color: var(--primary-color, #FFA62B);
+        color: var(--light-text-color, #FFF);
+        border: 1px solid var(--search-border-color, #E6E6E6);
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: var(--header-bg-color, rgb(251, 226, 135));
+        }
+        
+    }
+
+}

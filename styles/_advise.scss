@@ -1,0 +1,131 @@
+.advise {
+    background-color: var(--advise-bg-color, #FAFAFA);
+  
+    &__container {
+        display: flex;    
+        flex-direction: column;
+        padding: 80px 42px;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+
+        @include sm-max {
+            padding: 54px 94px 106px;
+        }
+    }
+
+    &__first-cell {
+        display: flex;    
+        flex-direction: column;
+        padding-top: 46px;
+        padding-bottom: 46px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__second-cell {
+        display: flex;    
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__list {
+        display: flex;    
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+
+        @include xl-max {
+            flex-direction: column;
+        }
+
+        @include sm-max {
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+        display: flex;    
+        justify-content: center;
+        flex-direction: row;
+        
+        @include sm-max {
+            flex-direction: column;
+        }
+    }
+
+    &__title {
+        color: var(--text-color, #252B42);
+        font-size: var(--font-size-h2, 40px);
+        font-weight: var(--font-weight-h2, 500);
+        line-height: var(--line-height-h2, 57px);
+
+        @include sm-max {
+            padding: 0px 24px;
+        }
+    }
+
+    &__text {
+        color: var(--gray-text-color, #737373);
+        font-size: var(--font-size-paragraph, 14px);
+        font-weight: var(--font-weigh-paragraph, 500);
+        line-height: var(--line-heigh-paragraph, 20px);
+
+        @include sm-max {
+            padding: 0px 52px;
+            br {
+                display: none;
+              }
+        }
+    }
+
+    &__card {
+        display: flex;    
+        flex-direction: column;
+        justify-content: center;
+        background-color: var(--white-bg-color, white);
+    }
+
+    &__card-title {
+        padding: 30px 30px 0px 30px;
+        text-align: left;
+        color: var(--text-color, #252B42);
+        font-size: var(--font-size-h5, 16px);
+        font-weight: var(--font-weight-h5, 700);
+        line-height: var(--line-height-h5, 24px);
+
+    }
+
+    &__card-text {
+        padding: 15px 30px 30px 30px;
+        text-align: left;
+        color: var(--gray-text-color, #737373);
+        font-size: var(--font-size-paragraph, 14px);
+        font-weight: var(--font-weigh-paragraph, 500);
+        line-height: var(--line-heigh-paragraph, 20px);
+
+    }
+
+    &__card-image {
+        padding: 0px 30px;
+
+    }
+
+    &__card-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    
+        @include sm-max {
+            flex-direction: column;
+        }
+    }
+
+    &__card-item {
+        display: flex;
+        justify-content: center;
+    }
+
+}
