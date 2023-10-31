@@ -40,10 +40,10 @@
 
     &__title {
         text-align: left;
-        color: var(--text-color, #252B42);
-        font-size: var(--font-size-h3, 24px);
-        font-weight: var(--font-weight-h3, 700);
-        line-height: var(--line-height-h3, 32px);
+        color: var(--text-color);
+        font-size: var(--font-size-h3);
+        font-weight: var(--font-weight-h3);
+        line-height: var(--line-height-h3);
         br {
             display: none;
           }
@@ -58,31 +58,28 @@
     &__text {
         padding-top: 10px;
         text-align: left;
-        color: var(--gray-text-color, #737373);
-        font-size: var(--font-size-paragraph, 14px);
-        font-weight: var(--font-weigh-paragraph, 500);
-        line-height: var(--line-heigh-paragraph, 20px);
-
+        color: var(--gray-text-color);
+        font-size: var(--font-size-paragraph);
+        font-weight: var(--font-weigh-paragraph);
+        line-height: var(--line-heigh-paragraph);
     }
 
     &__button {
         padding: 15px 40px;
         max-height: 72px;
       
-        font-size: var(--font-size-btn, 14px);
-        font-weight: var(--font-weight-btn, 700);
-        line-height: var(--line-height-btn, 28px);
+        font-size: var(--font-size-btn);
+        font-weight: var(--font-weight-btn);
+        line-height: var(--line-height-btn);
       
-        background-color: var(--primary-color, #FFA62B);
-        color: var(--light-text-color, #FFF);
-        border: 1px solid var(--search-border-color, #E6E6E6);
+        background-color: var(--primary-color);
+        color: var(--light-text-color);
+        border: 1px solid var(--search-border-color);
         border-radius: 5px;
         cursor: pointer;
 
         &:hover {
-          background-color: var(--header-bg-color, rgb(251, 226, 135));
+          background-color: var(--header-bg-color);
         }
-        
     }
-
 }

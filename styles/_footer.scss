@@ -1,6 +1,6 @@
 .footer {
     &__container {
-        background-color: var(--footer-color, #16697A);
+        background-color: var(--footer-color);
     }
 
     &__list {
@@ -29,19 +29,19 @@
     &__title {
         padding-bottom: 10px;
         text-align: left;
-        color: var(--light-text-color, #FFF);
-        font-size: var(--font-size-h5, 16px);
-        font-weight: var(--font-weight-h5, 700);
-        line-height: var(--line-height-h5, 24px);
+        color: var(--light-text-color);
+        font-size: var(--font-size-h5);
+        font-weight: var(--font-weight-h5);
+        line-height: var(--line-height-h5);
     }
 
     &__text, &__link {
         padding-top: 10px;
         text-align: left;
-        color: var(--light-text-color, #FFF);
-        font-size: var(--font-size-link, 14px);
-        font-weight: var(--font-weight-link, 600);
-        line-height: var(--line-height-link, 24px);
+        color: var(--light-text-color);
+        font-size: var(--font-size-link);
+        font-weight: var(--font-weight-link);
+        line-height: var(--line-height-link);
         font-style: normal;
     }
 

@@ -56,10 +56,10 @@
     }
 
     &__title {
-        color: var(--text-color, #252B42);
-        font-size: var(--font-size-h2, 40px);
-        font-weight: var(--font-weight-h2, 500);
-        line-height: var(--line-height-h2, 57px);
+        color: var(--text-color);
+        font-size: var(--font-size-h2);
+        font-weight: var(--font-weight-h2);
+        line-height: var(--line-height-h2);
 
         @include sm-max {
             padding: 0px 24px;
@@ -67,10 +67,10 @@
     }
 
     &__text {
-        color: var(--gray-text-color, #737373);
-        font-size: var(--font-size-paragraph, 14px);
-        font-weight: var(--font-weigh-paragraph, 500);
-        line-height: var(--line-heigh-paragraph, 20px);
+        color: var(--gray-text-color);
+        font-size: var(--font-size-paragraph);
+        font-weight: var(--font-weigh-paragraph);
+        line-height: var(--line-heigh-paragraph);
 
         @include sm-max {
             padding: 0px 52px;
@@ -84,32 +84,31 @@
         display: flex;    
         flex-direction: column;
         justify-content: center;
-        background-color: var(--white-bg-color, white);
+        background-color: var(--white-bg-color);
     }
 
     &__card-title {
         padding: 30px 30px 0px 30px;
         text-align: left;
-        color: var(--text-color, #252B42);
-        font-size: var(--font-size-h5, 16px);
-        font-weight: var(--font-weight-h5, 700);
-        line-height: var(--line-height-h5, 24px);
+        color: var(--text-color);
+        font-size: var(--font-size-h5);
+        font-weight: var(--font-weight-h5);
+        line-height: var(--line-height-h5);
 
     }
 
     &__card-text {
         padding: 15px 30px 30px 30px;
         text-align: left;
-        color: var(--gray-text-color, #737373);
-        font-size: var(--font-size-paragraph, 14px);
-        font-weight: var(--font-weigh-paragraph, 500);
-        line-height: var(--line-heigh-paragraph, 20px);
+        color: var(--gray-text-color);
+        font-size: var(--font-size-paragraph);
+        font-weight: var(--font-weigh-paragraph);
+        line-height: var(--line-heigh-paragraph);
 
     }
 
     &__card-image {
         padding: 0px 30px;
-
     }
 
     &__card-list {
@@ -127,5 +126,4 @@
         display: flex;
         justify-content: center;
     }
-
 }

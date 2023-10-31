@@ -1,6 +1,6 @@
 .clients {
     &__container {
-        background-color: var(--clients-bg-color, #FAFAFA);
+        background-color: var(--clients-bg-color);
     }
 
     &__list {
@@ -18,10 +18,10 @@
     }
 
     &__title {
-        color: var(--text-color, #252B42);
-        font-size: var(--font-size-h2, 40px);
-        font-weight: var(--font-weight-h2, 500);
-        line-height: var(--line-height-h2, 57px);
+        color: var(--text-color);
+        font-size: var(--font-size-h2);
+        font-weight: var(--font-weight-h2);
+        line-height: var(--line-height-h2);
 
         @include sm-max {
             padding: 0px 24px;
@@ -31,10 +31,10 @@
     &__text {
         padding-top: 10px;
         text-align: center;
-        color: var(--text-color, #252B42);
-        font-size: var(--font-size-paragraph, 14px);
-        font-weight: var(--font-weigh-paragraph, 500);
-        line-height: var(--line-heigh-paragraph, 20px);
+        color: var(--text-color);
+        font-size: var(--font-size-paragraph);
+        font-weight: var(--font-weigh-paragraph);
+        line-height: var(--line-heigh-paragraph);
 
         @include sm-max {
             br {
@@ -61,7 +61,7 @@
         padding: 80px 40px;
         margin-top: 30px;
         margin-bottom: 30px;
-        background-color: var(--white-bg-color, white);
+        background-color: var(--white-bg-color);
 
         @include lg-max {
             padding: 80px 10px;
@@ -81,7 +81,7 @@
             padding: 50px 40px;
             margin-top: 0px;
             margin-bottom: 0px;
-            background-color: var(--dark-background-color, #252B42);
+            background-color: var(--dark-background-color);
 
             @include lg-max {
                 padding: 50px 10px;
@@ -104,37 +104,37 @@
         }
 
         &-contacts {
-            color: var(--text-color, #252B42);
-            font-size: var(--font-size-h6, 14px);
-            font-weight: var(--font-weight-h6, 600);
-            line-height: var(--line-height-h6, 24px);
+            color: var(--text-color);
+            font-size: var(--font-size-h6);
+            font-weight: var(--font-weight-h6);
+            line-height: var(--line-height-h6);
 
             &--dark {
-                color: var(--light-text-color, #FFF);
+                color: var(--light-text-color);
             }
         }
 
         &-title {
-            color: var(--text-color, #252B42);
-            font-size: var(--font-size-h5, 16px);
-            font-weight: var(--font-weight-h5, 700);
-            line-height: var(--line-height-h5, 24px);
+            color: var(--text-color);
+            font-size: var(--font-size-h5);
+            font-weight: var(--font-weight-h5);
+            line-height: var(--line-height-h5);
 
             &--dark {
-                color: var(--light-text-color, #FFF);
+                color: var(--light-text-color);
             }
         }
 
         &-button {
             padding: 10px 20px;
           
-            font-size: var(--font-size-btn, 14px);
-            font-weight: var(--font-weight-btn, 400);
-            line-height: var(--line-height-btn, 28px);
+            font-size: var(--font-size-btn);
+            font-weight: var(--font-weight-btn);
+            line-height: var(--line-height-btn);
 
             border-radius: 5px;
-            border: 1px solid var(--primary-color, #FFA62B);
-            color: var(--primary-color, #FFA62B);
+            border: 1px solid var(--primary-color);
+            color: var(--primary-color);
             cursor: pointer;
     
             @include xl-max {
@@ -146,18 +146,18 @@
             }
             
             &:hover {
-                color: var(--light-text-color, #FFF);
-                background-color: var(--primary-color, #FFA62B);
+                color: var(--light-text-color);
+                background-color: var(--primary-color);
             }
             
             &--dark {
-                background-color: var(--dark-background-color, #252B42);
-                border: 1px solid var(--light-text-color, #FFF);
-                color: var(--light-text-color, #FFF);
+                background-color: var(--dark-background-color);
+                border: 1px solid var(--light-text-color);
+                color: var(--light-text-color);
     
                 &:hover {
-                    color: var(--dark-background-color, #252B42);
-                    background-color: var(--light-text-color, #FFF);
+                    color: var(--dark-background-color);
+                    background-color: var(--light-text-color);
                 }
             }
         }

@@ -1,19 +1,19 @@
 .button {
   padding: 10px 36px;
 
-  font-size: var(--font-size-btn, 14px);
-  font-weight: var(--font-weight-btn, 700);
-  line-height: var(--line-height-btn, 28px);
+  font-size: var(--font-size-btn);
+  font-weight: var(--font-weight-btn);
+  line-height: var(--line-height-btn);
 
-  background-color: var(--header-bg-color, rgb(251, 226, 135));
-  color: var(--button-color, #00A0C1);
-  border: 1px solid var(--button-color, #00A0C1);
+  background-color: var(--header-bg-color);
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
   border-radius: 37px;
   cursor: pointer;
 
   &:hover {
-    background-color: var(--button-color, #00A0C1);
-    color: var(--light-text-color, #FFF);
+    background-color: var(--button-color);
+    color: var(--light-text-color);
   }
   
 }

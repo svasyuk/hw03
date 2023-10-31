@@ -10,10 +10,10 @@
 
     &__title {
         text-align: center;
-        color: var(--text-color, #252B42);
-        font-size: var(--font-size-h2, 40px);
-        font-weight: var(--font-weight-h2, 500);
-        line-height: var(--line-height-h2, 57px);
+        color: var(--text-color);
+        font-size: var(--font-size-h2);
+        font-weight: var(--font-weight-h2);
+        line-height: var(--line-height-h2);
 
         @include sm-max {
             br {
@@ -25,10 +25,10 @@
     &__text {
         padding-top: 15px;
         text-align: center;
-        color: var(--gray-text-color, #737373);
-        font-size: var(--font-size-paragraph, 14px);
-        font-weight: var(--font-weigh-paragraph, 500);
-        line-height: var(--line-heigh-paragraph, 20px);
+        color: var(--gray-text-color);
+        font-size: var(--font-size-paragraph);
+        font-weight: var(--font-weigh-paragraph);
+        line-height: var(--line-heigh-paragraph);
 
         @include sm-max {
             br {
@@ -72,38 +72,23 @@
     &__group-title {
         padding-top: 20px;
         text-align: left;
-        color: var(--text-color, #252B42);
-        font-size: var(--font-size-h2, 40px);
-        font-weight: var(--font-weight-h2, 500);
-        line-height: var(--line-height-h2, 57px);
-
-        // @include md-max {
-        //     br {
-        //         display: none;
-        //     }
-        // }
+        color: var(--text-color);
+        font-size: var(--font-size-h2);
+        font-weight: var(--font-weight-h2);
+        line-height: var(--line-height-h2);
     }
 
     &__group-text {
         padding-top: 10px;
         text-align: left;
-        color: var(--gray-text-color, #737373);
-        font-size: var(--font-size-paragraph, 14px);
-        font-weight: var(--font-weigh-paragraph, 500);
-        line-height: var(--line-heigh-paragraph, 20px);
-
-        // @include md-max {
-        //     br {
-        //         display: none;
-        //     }
-        // }
+        color: var(--gray-text-color);
+        font-size: var(--font-size-paragraph);
+        font-weight: var(--font-weigh-paragraph);
+        line-height: var(--line-heigh-paragraph);
     }
 
     &__office-image {
         width: 100%;
-        // @include xl-max {
-        //     width: 70%;
-        // }
     }
 
     &__card-list {
@@ -123,10 +108,10 @@
 
     &__card-title {
         text-align: left;
-        color: var(--text-color, #252B42);
-        font-size: var(--font-size-h5, 16px);
-        font-weight: var(--font-weight-h5, 700);
-        line-height: var(--line-height-h5, 24px);
+        color: var(--text-color);
+        font-size: var(--font-size-h5);
+        font-weight: var(--font-weight-h5);
+        line-height: var(--line-height-h5);
 
         @include md-max {
             br {
@@ -138,10 +123,10 @@
     &__card-text {
         padding-top: 5px;
         text-align: left;
-        color: var(--gray-text-color, #737373);
-        font-size: var(--font-size-h6, 14px);
-        font-weight: var(--font-weight-h6, 600);
-        line-height: var(--line-height-h6, 24px);
+        color: var(--gray-text-color);
+        font-size: var(--font-size-h6);
+        font-weight: var(--font-weight-h6);
+        line-height: var(--line-height-h6);
 
         @include md-max {
             br {
@@ -204,7 +189,7 @@
         align-items: center;
         gap: 180px;
 
-        background-color: var(--footer-color, #16697A);
+        background-color: var(--footer-color);
 
         @include xl-max {
             padding: 30px 20px;
@@ -221,39 +206,38 @@
             padding: 0px 30px 20px;
             gap: 0px;
         }
-
     }
+
 
     &__subscribe-label {
         text-align: left;
-        color: var(--light-text-color, #FFF);
-        font-size: var(--font-size-h3, 24px);
-        font-weight: var(--font-weight-h3, 700);
-        line-height: var(--line-height-h3, 32px);
+        color: var(--light-text-color);
+        font-size: var(--font-size-h3);
+        font-weight: var(--font-weight-h3);
+        line-height: var(--line-height-h3);
 
         @include xl-max {
             padding: 10px 10px;
-            font-size: var(--font-size-h4, 20px);
-            font-weight: var(--font-weight-h4, 500);
-            line-height: var(--line-height-h4, 30px);
+            font-size: var(--font-size-h4);
+            font-weight: var(--font-weight-h4);
+            line-height: var(--line-height-h4);
         }
     }
 
     &__subscribe-form {
-        //padding: 10px 36px;
-        background-color: var(--light-bg-color, #F9F9F9);
+        background-color: var(--light-bg-color);
     }
 
     &__subscribe-button {
         padding: 10px 22px;
       
-        font-size: var(--font-size-btn, 14px);
-        font-weight: var(--font-weight-btn, 400);
-        line-height: var(--line-height-btn, 28px);
+        font-size: var(--font-size-btn);
+        font-weight: var(--font-weight-btn);
+        line-height: var(--line-height-btn);
       
-        background-color: var(--primary-color, #FFA62B);
-        color: var(--light-text-color, #FFF);
-        border: 1px solid var(--search-border-color, #E6E6E6);
+        background-color: var(--primary-color);
+        color: var(--light-text-color);
+        border: 1px solid var(--search-border-color);
         cursor: pointer;
 
         @include xl-max {
@@ -265,21 +249,20 @@
         }
         
         &:hover {
-          background-color: var(--header-bg-color, rgb(251, 226, 135));
+          background-color: var(--header-bg-color);
         }
-        
     }
       
     &__subscribe-input {
         padding: 10px 36px;
       
-        font-size: var(--font-size-btn, 14px);
-        font-weight: var(--font-weight-btn, 400);
-        line-height: var(--line-height-btn, 28px);
+        font-size: var(--font-size-btn);
+        font-weight: var(--font-weight-btn);
+        line-height: var(--line-height-btn);
       
-        background-color: var(--light-bg-color, #F9F9F9);
-        color: var(--gray-text-color, #737373);
-        border: 1px solid var(--search-border-color, #E6E6E6);
+        background-color: var(--light-bg-color);
+        color: var(--gray-text-color);
+        border: 1px solid var(--search-border-color);
         cursor: text;
 
         @include xl-max {
@@ -289,7 +272,6 @@
         @include md-max {
             padding: 10px 5px;
         }
-        
     }
       
     &__bottom-bar {
@@ -297,7 +279,5 @@
         width: 100%;
         height: 78px;
         left: 0;
-        
     }
-
 }

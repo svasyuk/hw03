@@ -220,18 +220,18 @@ button {
 
 .button {
   padding: 10px 36px;
-  font-size: var(--font-size-btn, 14px);
-  font-weight: var(--font-weight-btn, 700);
-  line-height: var(--line-height-btn, 28px);
-  background-color: var(--header-bg-color, rgb(251, 226, 135));
-  color: var(--button-color, #00A0C1);
-  border: 1px solid var(--button-color, #00A0C1);
+  font-size: var(--font-size-btn);
+  font-weight: var(--font-weight-btn);
+  line-height: var(--line-height-btn);
+  background-color: var(--header-bg-color);
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
   border-radius: 37px;
   cursor: pointer;
 }
 .button:hover {
-  background-color: var(--button-color, #00A0C1);
-  color: var(--light-text-color, #FFF);
+  background-color: var(--button-color);
+  color: var(--light-text-color);
 }
 
 a {
@@ -243,7 +243,7 @@ a {
   align-items: center;
   justify-content: center;
 }
-.header .header-navbar {
+.header-navbar {
   display: flex;
   padding-top: 38px;
   padding-bottom: 38px;
@@ -251,43 +251,43 @@ a {
   align-items: center;
 }
 @media screen and (max-width: 548px) {
-  .header .header-navbar {
-    background-color: var(--white-bg-color, white);
+  .header-navbar {
+    background-color: var(--white-bg-color);
     justify-content: center;
   }
 }
-.header .header-navbar__brand {
+.header-navbar__brand {
   display: flex;
   padding-left: 200px;
   padding-right: 20px;
-  color: var(--text-color, #57585f);
-  font-size: var(--font-size-h3, 24px);
-  font-weight: var(--font-weight-h3, 700);
-  line-height: var(--line-height-h3, 32px);
+  color: var(--text-color);
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-h3);
+  line-height: var(--line-height-h3);
 }
 @media screen and (max-width: 1199px) {
-  .header .header-navbar__brand {
+  .header-navbar__brand {
     padding-left: 100px;
   }
 }
 @media screen and (max-width: 991px) {
-  .header .header-navbar__brand {
+  .header-navbar__brand {
     padding-left: 20px;
   }
 }
 @media screen and (max-width: 548px) {
-  .header .header-navbar__brand {
+  .header-navbar__brand {
     padding-right: 150px;
   }
 }
-.header .header-navbar__search {
+.header-navbar__search {
   display: flex;
 }
-.header .header-navbar__toggler {
+.header-navbar__toggler {
   padding-right: 60px;
 }
 @media screen and (max-width: 991px) {
-  .header .header-navbar__toggler {
+  .header-navbar__toggler {
     padding-right: 20px;
   }
 }
@@ -321,10 +321,10 @@ a {
   align-items: center;
 }
 .header__link {
-  color: var(--gray-text-color, #737373);
-  font-size: var(--font-size-link, 24px);
-  font-weight: var(--font-weight-link, 600);
-  line-height: var(--line-height-link, 32px);
+  color: var(--gray-text-color);
+  font-size: var(--font-size-link);
+  font-weight: var(--font-weight-link);
+  line-height: var(--line-height-link);
 }
 .header .header-button__icon {
   border: none;
@@ -398,23 +398,23 @@ a {
   }
 }
 .header .header-container__title {
-  color: var(--text-color, #252B42);
-  font-size: var(--font-size-h1, 58px);
-  font-weight: var(--font-weight-h1, 800);
-  line-height: var(--line-height-h1, 80px);
+  color: var(--text-color);
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-h1);
+  line-height: var(--line-height-h1);
 }
 @media screen and (max-width: 548px) {
   .header .header-container__title {
-    font-size: var(--font-size-h2, 40px);
-    font-weight: var(--font-weight-h2, 700);
-    line-height: var(--line-height-h2, 57px);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    line-height: var(--line-height-h2);
   }
 }
 .header .header-container__text {
-  color: var(--gray-text-color, #737373);
-  font-size: var(--font-size-h4, 20px);
-  font-weight: var(--font-weight-h4, 500);
-  line-height: var(--line-height-h4, 30px);
+  color: var(--gray-text-color);
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-h4);
+  line-height: var(--line-height-h4);
 }
 .header .header-container__cta {
   display: flex;
@@ -427,27 +427,27 @@ a {
     justify-content: center;
   }
 }
-.header .header-mobilemenu {
+.header .header__mobile-menu {
   display: none;
   justify-content: center;
   padding-bottom: 98px;
 }
 @media screen and (max-width: 548px) {
-  .header .header-mobilemenu {
+  .header .header__mobile-menu {
     display: flex;
-    background-color: var(--white-bg-color, white);
+    background-color: var(--white-bg-color);
   }
 }
-.header .mobilemenu__list {
+.header .mobile-menu__list {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.header .mobilemenu__link {
-  color: var(--gray-text-color, #737373);
-  font-size: var(--font-size-mob, 24px);
-  font-weight: var(--font-weight-mob, 600);
-  line-height: var(--line-height-mob, 32px);
+.header .mobile-menu__link {
+  color: var(--gray-text-color);
+  font-size: var(--font-size-mob);
+  font-weight: var(--font-weight-mob);
+  line-height: var(--line-height-mob);
 }
 
 .choose {
@@ -465,16 +465,16 @@ a {
   gap: 80px;
 }
 .choose__title {
-  color: var(--text-color, #252B42);
-  font-size: var(--font-size-h2, 58px);
-  font-weight: var(--font-weight-h2, 800);
-  line-height: var(--line-height-h2, 80px);
+  color: var(--text-color);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-h2);
+  line-height: var(--line-height-h2);
 }
 .choose__text {
-  color: var(--gray-text-color, #737373);
-  font-size: var(--font-size-paragraph, 14px);
-  font-weight: var(--font-weigh-paragraph, 500);
-  line-height: var(--line-heigh-paragraph, 20px);
+  color: var(--gray-text-color);
+  font-size: var(--font-size-paragraph);
+  font-weight: var(--font-weigh-paragraph);
+  line-height: var(--line-heigh-paragraph);
 }
 .choose__list {
   display: flex;
@@ -491,11 +491,11 @@ a {
 .choose__card {
   padding: 30px 40px 30px 40px;
   border-radius: 5px;
-  background: var(--light-bg-color, #F9F9F9);
+  background: var(--light-bg-color);
   box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
 }
 .choose__card--highlighted {
-  background-color: var(--button-color, #00A0C1);
+  background-color: var(--button-color);
 }
 .choose__icon {
   height: 48px;
@@ -511,10 +511,10 @@ a {
 }
 .choose__subtitle {
   margin-top: 10px;
-  color: var(--text-color, #252B42);
-  font-size: var(--font-size-h5, 58px);
-  font-weight: var(--font-weight-h5, 800);
-  line-height: var(--line-height-h5, 80px);
+  color: var(--text-color);
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-weight-h5);
+  line-height: var(--line-height-h5);
 }
 .choose__subtitle--highlighted {
   color: var(--light-text-color, #FFF);
@@ -577,10 +577,10 @@ a {
   }
 }
 .advise__title {
-  color: var(--text-color, #252B42);
-  font-size: var(--font-size-h2, 40px);
-  font-weight: var(--font-weight-h2, 500);
-  line-height: var(--line-height-h2, 57px);
+  color: var(--text-color);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-h2);
+  line-height: var(--line-height-h2);
 }
 @media screen and (max-width: 548px) {
   .advise__title {
@@ -588,10 +588,10 @@ a {
   }
 }
 .advise__text {
-  color: var(--gray-text-color, #737373);
-  font-size: var(--font-size-paragraph, 14px);
-  font-weight: var(--font-weigh-paragraph, 500);
-  line-height: var(--line-heigh-paragraph, 20px);
+  color: var(--gray-text-color);
+  font-size: var(--font-size-paragraph);
+  font-weight: var(--font-weigh-paragraph);
+  line-height: var(--line-heigh-paragraph);
 }
 @media screen and (max-width: 548px) {
   .advise__text {
@@ -605,23 +605,23 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--white-bg-color, white);
+  background-color: var(--white-bg-color);
 }
 .advise__card-title {
   padding: 30px 30px 0px 30px;
   text-align: left;
-  color: var(--text-color, #252B42);
-  font-size: var(--font-size-h5, 16px);
-  font-weight: var(--font-weight-h5, 700);
-  line-height: var(--line-height-h5, 24px);
+  color: var(--text-color);
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-weight-h5);
+  line-height: var(--line-height-h5);
 }
 .advise__card-text {
   padding: 15px 30px 30px 30px;
   text-align: left;
-  color: var(--gray-text-color, #737373);
-  font-size: var(--font-size-paragraph, 14px);
-  font-weight: var(--font-weigh-paragraph, 500);
-  line-height: var(--line-heigh-paragraph, 20px);
+  color: var(--gray-text-color);
+  font-size: var(--font-size-paragraph);
+  font-weight: var(--font-weigh-paragraph);
+  line-height: var(--line-heigh-paragraph);
 }
 .advise__card-image {
   padding: 0px 30px;
@@ -653,10 +653,10 @@ a {
 }
 .about__title {
   text-align: center;
-  color: var(--text-color, #252B42);
-  font-size: var(--font-size-h2, 40px);
-  font-weight: var(--font-weight-h2, 500);
-  line-height: var(--line-height-h2, 57px);
+  color: var(--text-color);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-h2);
+  line-height: var(--line-height-h2);
 }
 @media screen and (max-width: 548px) {
   .about__title br {
@@ -666,10 +666,10 @@ a {
 .about__text {
   padding-top: 15px;
   text-align: center;
-  color: var(--gray-text-color, #737373);
-  font-size: var(--font-size-paragraph, 14px);
-  font-weight: var(--font-weigh-paragraph, 500);
-  line-height: var(--line-heigh-paragraph, 20px);
+  color: var(--gray-text-color);
+  font-size: var(--font-size-paragraph);
+  font-weight: var(--font-weigh-paragraph);
+  line-height: var(--line-heigh-paragraph);
 }
 @media screen and (max-width: 548px) {
   .about__text br {
@@ -715,18 +715,18 @@ a {
 .about__group-title {
   padding-top: 20px;
   text-align: left;
-  color: var(--text-color, #252B42);
-  font-size: var(--font-size-h2, 40px);
-  font-weight: var(--font-weight-h2, 500);
-  line-height: var(--line-height-h2, 57px);
+  color: var(--text-color);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-h2);
+  line-height: var(--line-height-h2);
 }
 .about__group-text {
   padding-top: 10px;
   text-align: left;
-  color: var(--gray-text-color, #737373);
-  font-size: var(--font-size-paragraph, 14px);
-  font-weight: var(--font-weigh-paragraph, 500);
-  line-height: var(--line-heigh-paragraph, 20px);
+  color: var(--gray-text-color);
+  font-size: var(--font-size-paragraph);
+  font-weight: var(--font-weigh-paragraph);
+  line-height: var(--line-heigh-paragraph);
 }
 .about__office-image {
   width: 100%;
@@ -747,10 +747,10 @@ a {
 }
 .about__card-title {
   text-align: left;
-  color: var(--text-color, #252B42);
-  font-size: var(--font-size-h5, 16px);
-  font-weight: var(--font-weight-h5, 700);
-  line-height: var(--line-height-h5, 24px);
+  color: var(--text-color);
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-weight-h5);
+  line-height: var(--line-height-h5);
 }
 @media screen and (max-width: 767px) {
   .about__card-title br {
@@ -760,10 +760,10 @@ a {
 .about__card-text {
   padding-top: 5px;
   text-align: left;
-  color: var(--gray-text-color, #737373);
-  font-size: var(--font-size-h6, 14px);
-  font-weight: var(--font-weight-h6, 600);
-  line-height: var(--line-height-h6, 24px);
+  color: var(--gray-text-color);
+  font-size: var(--font-size-h6);
+  font-weight: var(--font-weight-h6);
+  line-height: var(--line-height-h6);
 }
 @media screen and (max-width: 767px) {
   .about__card-text br {
@@ -827,7 +827,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 180px;
-  background-color: var(--footer-color, #16697A);
+  background-color: var(--footer-color);
 }
 @media screen and (max-width: 1199px) {
   .about__subscribe-list {
@@ -850,30 +850,30 @@ a {
 }
 .about__subscribe-label {
   text-align: left;
-  color: var(--light-text-color, #FFF);
-  font-size: var(--font-size-h3, 24px);
-  font-weight: var(--font-weight-h3, 700);
-  line-height: var(--line-height-h3, 32px);
+  color: var(--light-text-color);
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-h3);
+  line-height: var(--line-height-h3);
 }
 @media screen and (max-width: 1199px) {
   .about__subscribe-label {
     padding: 10px 10px;
-    font-size: var(--font-size-h4, 20px);
-    font-weight: var(--font-weight-h4, 500);
-    line-height: var(--line-height-h4, 30px);
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-h4);
+    line-height: var(--line-height-h4);
   }
 }
 .about__subscribe-form {
-  background-color: var(--light-bg-color, #F9F9F9);
+  background-color: var(--light-bg-color);
 }
 .about__subscribe-button {
   padding: 10px 22px;
-  font-size: var(--font-size-btn, 14px);
-  font-weight: var(--font-weight-btn, 400);
-  line-height: var(--line-height-btn, 28px);
-  background-color: var(--primary-color, #FFA62B);
-  color: var(--light-text-color, #FFF);
-  border: 1px solid var(--search-border-color, #E6E6E6);
+  font-size: var(--font-size-btn);
+  font-weight: var(--font-weight-btn);
+  line-height: var(--line-height-btn);
+  background-color: var(--primary-color);
+  color: var(--light-text-color);
+  border: 1px solid var(--search-border-color);
   cursor: pointer;
 }
 @media screen and (max-width: 1199px) {
@@ -887,16 +887,16 @@ a {
   }
 }
 .about__subscribe-button:hover {
-  background-color: var(--header-bg-color, rgb(251, 226, 135));
+  background-color: var(--header-bg-color);
 }
 .about__subscribe-input {
   padding: 10px 36px;
-  font-size: var(--font-size-btn, 14px);
-  font-weight: var(--font-weight-btn, 400);
-  line-height: var(--line-height-btn, 28px);
-  background-color: var(--light-bg-color, #F9F9F9);
-  color: var(--gray-text-color, #737373);
-  border: 1px solid var(--search-border-color, #E6E6E6);
+  font-size: var(--font-size-btn);
+  font-weight: var(--font-weight-btn);
+  line-height: var(--line-height-btn);
+  background-color: var(--light-bg-color);
+  color: var(--gray-text-color);
+  border: 1px solid var(--search-border-color);
   cursor: text;
 }
 @media screen and (max-width: 1199px) {
@@ -917,7 +917,7 @@ a {
 }
 
 .clients__container {
-  background-color: var(--clients-bg-color, #FAFAFA);
+  background-color: var(--clients-bg-color);
 }
 .clients__list {
   display: flex;
@@ -934,10 +934,10 @@ a {
   }
 }
 .clients__title {
-  color: var(--text-color, #252B42);
-  font-size: var(--font-size-h2, 40px);
-  font-weight: var(--font-weight-h2, 500);
-  line-height: var(--line-height-h2, 57px);
+  color: var(--text-color);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-h2);
+  line-height: var(--line-height-h2);
 }
 @media screen and (max-width: 548px) {
   .clients__title {
@@ -947,10 +947,10 @@ a {
 .clients__text {
   padding-top: 10px;
   text-align: center;
-  color: var(--text-color, #252B42);
-  font-size: var(--font-size-paragraph, 14px);
-  font-weight: var(--font-weigh-paragraph, 500);
-  line-height: var(--line-heigh-paragraph, 20px);
+  color: var(--text-color);
+  font-size: var(--font-size-paragraph);
+  font-weight: var(--font-weigh-paragraph);
+  line-height: var(--line-heigh-paragraph);
 }
 @media screen and (max-width: 548px) {
   .clients__text br {
@@ -976,7 +976,7 @@ a {
   padding: 80px 40px;
   margin-top: 30px;
   margin-bottom: 30px;
-  background-color: var(--white-bg-color, white);
+  background-color: var(--white-bg-color);
 }
 @media screen and (max-width: 991px) {
   .clients__card {
@@ -999,7 +999,7 @@ a {
   padding: 50px 40px;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: var(--dark-background-color, #252B42);
+  background-color: var(--dark-background-color);
 }
 @media screen and (max-width: 991px) {
   .clients__card--dark {
@@ -1022,31 +1022,31 @@ a {
   }
 }
 .clients__card-contacts {
-  color: var(--text-color, #252B42);
-  font-size: var(--font-size-h6, 14px);
-  font-weight: var(--font-weight-h6, 600);
-  line-height: var(--line-height-h6, 24px);
+  color: var(--text-color);
+  font-size: var(--font-size-h6);
+  font-weight: var(--font-weight-h6);
+  line-height: var(--line-height-h6);
 }
 .clients__card-contacts--dark {
-  color: var(--light-text-color, #FFF);
+  color: var(--light-text-color);
 }
 .clients__card-title {
-  color: var(--text-color, #252B42);
-  font-size: var(--font-size-h5, 16px);
-  font-weight: var(--font-weight-h5, 700);
-  line-height: var(--line-height-h5, 24px);
+  color: var(--text-color);
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-weight-h5);
+  line-height: var(--line-height-h5);
 }
 .clients__card-title--dark {
-  color: var(--light-text-color, #FFF);
+  color: var(--light-text-color);
 }
 .clients__card-button {
   padding: 10px 20px;
-  font-size: var(--font-size-btn, 14px);
-  font-weight: var(--font-weight-btn, 400);
-  line-height: var(--line-height-btn, 28px);
+  font-size: var(--font-size-btn);
+  font-weight: var(--font-weight-btn);
+  line-height: var(--line-height-btn);
   border-radius: 5px;
-  border: 1px solid var(--primary-color, #FFA62B);
-  color: var(--primary-color, #FFA62B);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
   cursor: pointer;
 }
 @media screen and (max-width: 1199px) {
@@ -1060,17 +1060,17 @@ a {
   }
 }
 .clients__card-button:hover {
-  color: var(--light-text-color, #FFF);
-  background-color: var(--primary-color, #FFA62B);
+  color: var(--light-text-color);
+  background-color: var(--primary-color);
 }
 .clients__card-button--dark {
-  background-color: var(--dark-background-color, #252B42);
-  border: 1px solid var(--light-text-color, #FFF);
-  color: var(--light-text-color, #FFF);
+  background-color: var(--dark-background-color);
+  border: 1px solid var(--light-text-color);
+  color: var(--light-text-color);
 }
 .clients__card-button--dark:hover {
-  color: var(--dark-background-color, #252B42);
-  background-color: var(--light-text-color, #FFF);
+  color: var(--dark-background-color);
+  background-color: var(--light-text-color);
 }
 
 .contact__container {
@@ -1115,10 +1115,10 @@ a {
 }
 .contact__title {
   text-align: left;
-  color: var(--text-color, #252B42);
-  font-size: var(--font-size-h3, 24px);
-  font-weight: var(--font-weight-h3, 700);
-  line-height: var(--line-height-h3, 32px);
+  color: var(--text-color);
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-h3);
+  line-height: var(--line-height-h3);
 }
 .contact__title br {
   display: none;
@@ -1131,29 +1131,29 @@ a {
 .contact__text {
   padding-top: 10px;
   text-align: left;
-  color: var(--gray-text-color, #737373);
-  font-size: var(--font-size-paragraph, 14px);
-  font-weight: var(--font-weigh-paragraph, 500);
-  line-height: var(--line-heigh-paragraph, 20px);
+  color: var(--gray-text-color);
+  font-size: var(--font-size-paragraph);
+  font-weight: var(--font-weigh-paragraph);
+  line-height: var(--line-heigh-paragraph);
 }
 .contact__button {
   padding: 15px 40px;
   max-height: 72px;
-  font-size: var(--font-size-btn, 14px);
-  font-weight: var(--font-weight-btn, 700);
-  line-height: var(--line-height-btn, 28px);
-  background-color: var(--primary-color, #FFA62B);
-  color: var(--light-text-color, #FFF);
-  border: 1px solid var(--search-border-color, #E6E6E6);
+  font-size: var(--font-size-btn);
+  font-weight: var(--font-weight-btn);
+  line-height: var(--line-height-btn);
+  background-color: var(--primary-color);
+  color: var(--light-text-color);
+  border: 1px solid var(--search-border-color);
   border-radius: 5px;
   cursor: pointer;
 }
 .contact__button:hover {
-  background-color: var(--header-bg-color, rgb(251, 226, 135));
+  background-color: var(--header-bg-color);
 }
 
 .footer__container {
-  background-color: var(--footer-color, #16697A);
+  background-color: var(--footer-color);
 }
 .footer__list {
   display: flex;
@@ -1183,18 +1183,18 @@ a {
 .footer__title {
   padding-bottom: 10px;
   text-align: left;
-  color: var(--light-text-color, #FFF);
-  font-size: var(--font-size-h5, 16px);
-  font-weight: var(--font-weight-h5, 700);
-  line-height: var(--line-height-h5, 24px);
+  color: var(--light-text-color);
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-weight-h5);
+  line-height: var(--line-height-h5);
 }
 .footer__text, .footer__link {
   padding-top: 10px;
   text-align: left;
-  color: var(--light-text-color, #FFF);
-  font-size: var(--font-size-link, 14px);
-  font-weight: var(--font-weight-link, 600);
-  line-height: var(--line-height-link, 24px);
+  color: var(--light-text-color);
+  font-size: var(--font-size-link);
+  font-weight: var(--font-weight-link);
+  line-height: var(--line-height-link);
   font-style: normal;
 }
 .footer__cell {
