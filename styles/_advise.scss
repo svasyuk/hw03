@@ -1,0 +1,129 @@
+.advise {
+    background-color: var(--advise-bg-color, #FAFAFA);
+  
+    &__container {
+        display: flex;    
+        flex-direction: column;
+        padding: 80px 42px;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+
+        @include sm-max {
+            padding: 54px 94px 106px;
+        }
+    }
+
+    &__first-cell {
+        display: flex;    
+        flex-direction: column;
+        padding-top: 46px;
+        padding-bottom: 46px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__second-cell {
+        display: flex;    
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__list {
+        display: flex;    
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+
+        @include xl-max {
+            flex-direction: column;
+        }
+
+        @include sm-max {
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+        display: flex;    
+        justify-content: center;
+        flex-direction: row;
+        
+        @include sm-max {
+            flex-direction: column;
+        }
+    }
+
+    &__title {
+        color: var(--text-color);
+        font-size: var(--font-size-h2);
+        font-weight: var(--font-weight-h2);
+        line-height: var(--line-height-h2);
+
+        @include sm-max {
+            padding: 0px 24px;
+        }
+    }
+
+    &__text {
+        color: var(--gray-text-color);
+        font-size: var(--font-size-paragraph);
+        font-weight: var(--font-weigh-paragraph);
+        line-height: var(--line-heigh-paragraph);
+
+        @include sm-max {
+            padding: 0px 52px;
+            br {
+                display: none;
+              }
+        }
+    }
+
+    &__card {
+        display: flex;    
+        flex-direction: column;
+        justify-content: center;
+        background-color: var(--white-bg-color);
+    }
+
+    &__card-title {
+        padding: 30px 30px 0px 30px;
+        text-align: left;
+        color: var(--text-color);
+        font-size: var(--font-size-h5);
+        font-weight: var(--font-weight-h5);
+        line-height: var(--line-height-h5);
+
+    }
+
+    &__card-text {
+        padding: 15px 30px 30px 30px;
+        text-align: left;
+        color: var(--gray-text-color);
+        font-size: var(--font-size-paragraph);
+        font-weight: var(--font-weigh-paragraph);
+        line-height: var(--line-heigh-paragraph);
+
+    }
+
+    &__card-image {
+        padding: 0px 30px;
+    }
+
+    &__card-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    
+        @include sm-max {
+            flex-direction: column;
+        }
+    }
+
+    &__card-item {
+        display: flex;
+        justify-content: center;
+    }
+}
