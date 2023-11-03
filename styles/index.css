@@ -359,7 +359,6 @@ a {
   flex-direction: column;
   padding-top: 172px;
   padding-bottom: 172px;
-  min-width: 500px;
   gap: 35px;
 }
 @media screen and (max-width: 1199px) {
